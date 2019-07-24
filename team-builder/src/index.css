@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.formContainer {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+  padding: 1em;
+}
+
+.formContainer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projectName {
+  text-align: center;
+}
+
+.company-info {
+  background: var(--mainGreen);
+}
+
+.company-info h3,
+.company-info ul {
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+.teamMember {
+  background: var(--controller);
+}
+
+/* FORM STYLES */
+.teamMember form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.teamMember form label {
+  display: block;
+}
+
+.teamMember form p {
+  margin: 0;
+}
+
+.teamMember form .full {
+  grid-column: 1 / 3;
+}
+
+.teamMember form button,
+.teamMember form input,
+.teamMember form textarea {
+  width: 100%;
+  padding: 1em;
+  border: 1px solid #c9e6ff;
+}
+
+.teamMember form button {
+  background: var(--mainGreen);
+  border: 0;
+  text-transform: uppercase;
+}
+
+.teamMember form button:hover,
+.teamMember form button:focus {
+  background: #92bde7;
+  color: #fff;
+  outline: 0;
+  transition: background-color 2s ease-out;
+}
+
+.teamMemberBtn {
+  font-size: 2rem;
+}
+
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: #79c879;
+  color: white;
+  margin-bottom: 10px;
+  display: none;
+}
